@@ -15,7 +15,7 @@
 7. All future messages are encrypted and decrypted using the AES key
 
 ## Note:
-Only the server.py needs access to the mykey.pem file. 
-A different .pem file could and should be used to replace mykey.pem in actual use.
+Only the server.py needs access to the mykey.pem file.  
+A different .pem file could and should be used to replace mykey.pem in actual use.  
 The AES key should be changed from 'zebrabluestripes'.
 
