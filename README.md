@@ -4,6 +4,7 @@
 1. Ensure client.py and server.py have the same host and port (by default localhost port 5022)
 2. Run server.py with 'python3 server.py' command
 3. Run client.py with 'python3 server.py' command
+4. Type away!!
 
 ## How it works:
 1. The server creates an RSA public and private key (using the .pem file generated with Keytool)
