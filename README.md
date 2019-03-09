@@ -2,8 +2,8 @@
 #### client and server that use RSA and AES to communicate securely
 ## Usage:
 1. Ensure client.py and server.py have the same host and port (by default localhost port 5022)
-2. run server.py with 'python3 server.py' command
-3. run client.py with 'python3 server.py' command
+2. Run server.py with 'python3 server.py' command
+3. Run client.py with 'python3 server.py' command
 
 ## How it works:
 1. The server creates an RSA public and private key (using the .pem file generated with Keytool)
@@ -15,7 +15,7 @@
 7. All future messages are encrypted and decrypted using the AES key
 
 ## Note:
-Only the server.py needs access to the mykey.pem file.  
-A different .pem file could and should be used to replace mykey.pem in actual use.  
-The AES key should be changed from 'zebrabluestripes'.
+- Only the server.py needs access to the mykey.pem file.  
+- A different .pem file could and should be used to replace mykey.pem in actual use.  
+- The AES key should be changed from 'zebrabluestripes'.
 
